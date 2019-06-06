@@ -1,0 +1,5 @@
+H = int(input())
+M = int(input())
+S = int(input())
+degrees = H*30 + M*0.5 + S*(30/3600)
+print(degrees)
